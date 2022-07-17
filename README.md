@@ -21,40 +21,26 @@ se a última parte do nome for igual a "FILHO", "FILHA", "NETO", "NETA", "SOBRIN
 as partes do nome que não fazem parte do sobrenome devem ser impressas com a inicial maiúscula e com as demais letras minúsculas;
 "da", "de", "do", "das", "dos" não fazem parte do sobrenome e não iniciam por letra maiúscula.
 
-Caso 2- Parênteses Booleanos
-Dada uma expressão booleana, contendo os símbolos: 'true', 'false', 'and', 'or' e 'xor', elabore um programa que conte de quantas maneiras é possível obter uma resposta ' true', utilizando parênteses.
-Por exemplo, dada a expressão 'true and false xor true' existe apenas uma maneira de a expressão retornar 'true': 'true and (false xor true)'
+Caso 2- JokenPo
+
+Jokenpo é uma brincadeira japonesa, onde dois jogadores escolhem um dentre três possíveis itens: Pedra, Papel ou Tesoura.
+
+O objetivo é fazer um juiz de Jokenpo que dada a jogada dos dois jogadores informa o resultado da partida.
+
+As regras são as seguintes:
+
+Pedra empata com Pedra e ganha de Tesoura
+Tesoura empata com Tesoura e ganha de Papel
+Papel empata com Papel e ganha de Pedra
 
 
-Caso 3- Encontre o telefone
-Em alguns lugares é comum lembrar um número do telefone associando seus dígitos a letras. Dessa maneira a expressão MY LOVE significa 69 5683. Claro que existem alguns problemas, uma vez que alguns números de telefone não formam uma palavra ou uma frase e os dígitos 1 e 0 não estão associados a nenhuma letra.
+Caso 3- Troco
 
-Sua tarefa é ler uma expressão e encontrar o número de telefone correspondente baseado na tabela abaixo. Uma expressão é composta por letras maiúsculas (A-Z), hifens (-) e os números 1 e 0.
+Funcionários de empresas comerciais que trabalham como caixa tem uma grande responsabilidade em suas mãos. A maior parte do tempo de seu expediente de trabalho é gasto recebendo valores de clientes e, em alguns casos, fornecendo troco.
 
-Letras  ->  Número 
-ABC    ->  2 
-DEF    ->  3 
-GHI    ->  4 
-JKL    ->  5 
-MNO    ->  6 
-PQRS    ->  7 
-TUV    ->  8 
-WXYZ   ->  9 
-Entrada
+Seu desafio é fazer um programa que leia o valor total a ser pago e o valor efetivamente pago, informando o menor número de cédulas e moedas que devem ser fornecidas como troco.
 
-A entrada consiste de um conjunto de expressões. Cada expressão está sozinha em uma linha e possui C caracteres, onde 1 ≤ C ≤ 30. A entrada é terminada por fim de arquivo (EOF).
+Deve-se considerar que há:
 
-Saída
-Para cada expressão você deve imprimir o número de telefone correspondente.
-
-Exemplo de entrada:
-
-1-HOME-SWEET-HOME 
-MY-MISERABLE-JOB
-Saída correspondente:
-
-1-4663-79338-4663 
-69-647372253-562
-Curiosidades
-
-A frase "The quick brown fox jumps over the lazy dog" é um pangrama (frase com sentido em que são usadas todas as letras do alfabeto de determinada língua) da língua inglesa.
+cédulas de R$100,00, R$50,00, R$10,00, R$5,00 e R$1,00;
+moedas de R$0,50, R$0,10, R$0,05 e R$0,01.
