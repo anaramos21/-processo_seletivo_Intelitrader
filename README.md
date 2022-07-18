@@ -34,13 +34,15 @@ Tesoura empata com Tesoura e ganha de Papel
 Papel empata com Papel e ganha de Pedra
 
 
-Caso 3- Troco
+Caso 3-  Dinheiro Caixa
+Desenvolva um programa que simule a entrega de notas quando um cliente efetuar um saque em um caixa eletrônico. Os requisitos básicos são os seguintes:
 
-Funcionários de empresas comerciais que trabalham como caixa tem uma grande responsabilidade em suas mãos. A maior parte do tempo de seu expediente de trabalho é gasto recebendo valores de clientes e, em alguns casos, fornecendo troco.
+Entregar o menor número de notas;
+É possível sacar o valor solicitado com as notas disponíveis;
+Saldo do cliente infinito;
+Quantidade de notas infinito (pode-se colocar um valor finito de cédulas para aumentar a dificuldade do problema);
+Notas disponíveis de R$ 100,00; R$ 50,00; R$ 20,00 e R$ 10,00
+Exemplos:
 
-Seu desafio é fazer um programa que leia o valor total a ser pago e o valor efetivamente pago, informando o menor número de cédulas e moedas que devem ser fornecidas como troco.
-
-Deve-se considerar que há:
-
-cédulas de R$100,00, R$50,00, R$10,00, R$5,00 e R$1,00;
-moedas de R$0,50, R$0,10, R$0,05 e R$0,01.
+Valor do Saque: R$ 30,00 – Resultado Esperado: Entregar 1 nota de R$20,00 e 1 nota de R$ 10,00.
+Valor do Saque: R$ 80,00 – Resultado Esperado: Entregar 1 nota de R$50,00 1 nota de R$ 20,00 e 1 nota de R$ 10,00.
