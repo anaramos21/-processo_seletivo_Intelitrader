@@ -1,6 +1,6 @@
 
 def jokenpo(primeiro_jogador, segundo_jogador):
-    Opcao_moviment = ['Pedra', 'Papel', 'Tesoura']
+    Opcao_movimento= ['Pedra', 'Papel', 'Tesoura']
     Opcao_jogadores = [primeiro_jogador, segundo_jogador]
     
        if Opcao_jogadores.count('Pedra') == 1 and Opcao_jogadores.count('Tesoura') == 1:
